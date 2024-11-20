@@ -1,0 +1,351 @@
+2023-05-14 18:47:10:032 [Appium] Welcome to Appium v1.22.3
+2023-05-14 18:47:10:033 [Appium] Non-default server args:
+2023-05-14 18:47:10:034 [Appium]   port: 5342
+2023-05-14 18:47:10:034 [Appium]   sessionOverride: true
+2023-05-14 18:47:10:034 [Appium]   logFile: C:\Users\91934\Desktop\NewGit\Android_Redmi Note_9\Server.log
+2023-05-14 18:47:10:065 [Appium] Appium REST http interface listener started on 0.0.0.0:5342
+2023-05-14 18:47:10:318 [HTTP] --> GET /wd/hub/status
+2023-05-14 18:47:10:319 [HTTP] {}
+2023-05-14 18:47:10:320 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2023-05-14 18:47:10:321 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2023-05-14 18:47:10:330 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
+2023-05-14 18:47:10:330 [HTTP] 
+2023-05-14 18:47:10:335 [HTTP] --> GET /wd/hub/status
+2023-05-14 18:47:10:335 [HTTP] {}
+2023-05-14 18:47:10:336 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2023-05-14 18:47:10:336 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2023-05-14 18:47:10:338 [HTTP] <-- GET /wd/hub/status 200 2 ms - 68
+2023-05-14 18:47:10:339 [HTTP] 
+2023-05-14 18:47:10:845 [HTTP] Request idempotency key: e5605db2-e7ee-4e8a-a723-f86f1243e475
+2023-05-14 18:47:10:871 [HTTP] --> POST /wd/hub/session
+2023-05-14 18:47:10:871 [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\91934\\Desktop\\NewGit\\src\\test\\resources\\apps\\app-release.apk","appActivity":"com.lyofi.wallet.MainActivity","appPackage":"com.lyofi.wallet","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"d27a4bda","deviceName":"Redmi Note_9","systemPort":"10000"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\91934\\Desktop\\NewGit\\src\\test\\resources\\apps\\app-release.apk","appium:appActivity":"com.lyofi.wallet.MainActivity","appium:appPackage":"com.lyofi.wallet","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"Redmi Note_9","platformName":"android","appium:systemPort":"10000","appium:udid":"d27a4bda"}]}}
+2023-05-14 18:47:10:872 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\91934\\Desktop\\NewGit\\src\\test\\resources\\apps\\app-release.apk","appActivity":"com.lyofi.wallet.MainActivity","appPackage":"com.lyofi.wallet","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"d27a4bda","deviceName":"Redmi Note_9","systemPort":"10000"},null,{"firstMatch":[{"appium:app":"C:\\Users\\91934\\Desktop\\NewGit\\src\\test\\resources\\apps\\app-release.apk","appium:appActivity":"com.lyofi.wallet.MainActivity","appium:appPackage":"com.lyofi.wallet","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"Redmi Note_9","platformName":"android","appium:systemPort":"10000","appium:udid":"d27a4bda"}]}]
+2023-05-14 18:47:10:872 [BaseDriver] Event 'newSessionRequested' logged at 1684090030872 (00:17:10 GMT+0530 (India Standard Time))
+2023-05-14 18:47:10:874 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2023-05-14 18:47:10:875 [BaseDriver]   chromeDriverPort
+2023-05-14 18:47:11:299 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2023-05-14 18:47:11:299 [Appium] There are no active sessions for cleanup
+2023-05-14 18:47:11:301 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2023-05-14 18:47:11:301 [BaseDriver] Creating session with W3C capabilities: {
+2023-05-14 18:47:11:301 [BaseDriver]   "alwaysMatch": {
+2023-05-14 18:47:11:302 [BaseDriver]     "appium:chromeDriverPort": "11000",
+2023-05-14 18:47:11:302 [BaseDriver]     "platformName": "android",
+2023-05-14 18:47:11:302 [BaseDriver]     "appium:app": "C:\\Users\\91934\\Desktop\\NewGit\\src\\test\\resources\\apps\\app-release.apk",
+2023-05-14 18:47:11:302 [BaseDriver]     "appium:appActivity": "com.lyofi.wallet.MainActivity",
+2023-05-14 18:47:11:302 [BaseDriver]     "appium:appPackage": "com.lyofi.wallet",
+2023-05-14 18:47:11:302 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2023-05-14 18:47:11:302 [BaseDriver]     "appium:deviceName": "Redmi Note_9",
+2023-05-14 18:47:11:302 [BaseDriver]     "appium:systemPort": "10000",
+2023-05-14 18:47:11:302 [BaseDriver]     "appium:udid": "d27a4bda"
+2023-05-14 18:47:11:302 [BaseDriver]   },
+2023-05-14 18:47:11:302 [BaseDriver]   "firstMatch": [
+2023-05-14 18:47:11:302 [BaseDriver]     {}
+2023-05-14 18:47:11:302 [BaseDriver]   ]
+2023-05-14 18:47:11:302 [BaseDriver] }
+2023-05-14 18:47:11:304 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2023-05-14 18:47:11:304 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2023-05-14 18:47:11:306 [BaseDriver] Capability 'systemPort' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+2023-05-14 18:47:11:306 [BaseDriver] Capability 'chromeDriverPort' changed from string ('11000') to integer (11000). This may cause unexpected behavior
+2023-05-14 18:47:11:308 [BaseDriver] Session created with session id: 669afe37-724a-455d-9886-d2f0f2c47fe1
+2023-05-14 18:47:11:311 [BaseDriver] Using local app 'C:\Users\91934\Desktop\NewGit\src\test\resources\apps\app-release.apk'
+2023-05-14 18:47:11:311 [UiAutomator2] Checking whether app is actually present
+2023-05-14 18:47:11:331 [ADB] Found 2 'build-tools' folders under 'C:\Users\91934\AppData\Local\Android\Sdk' (newest first):
+2023-05-14 18:47:11:331 [ADB]     C:/Users/91934/AppData/Local/Android/Sdk/build-tools/33.0.2
+2023-05-14 18:47:11:331 [ADB]     C:/Users/91934/AppData/Local/Android/Sdk/build-tools/30.0.3
+2023-05-14 18:47:11:332 [ADB] Using 'adb.exe' from 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2023-05-14 18:47:11:333 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2023-05-14 18:47:11:647 [AndroidDriver] Retrieving device list
+2023-05-14 18:47:11:647 [ADB] Trying to find a connected android device
+2023-05-14 18:47:11:648 [ADB] Getting connected devices
+2023-05-14 18:47:11:680 [ADB] Connected devices: [{"udid":"d27a4bda","state":"device"}]
+2023-05-14 18:47:11:680 [AndroidDriver] Using device: d27a4bda
+2023-05-14 18:47:11:681 [ADB] Using 'adb.exe' from 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2023-05-14 18:47:11:682 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2023-05-14 18:47:11:708 [ADB] Setting device id to d27a4bda
+2023-05-14 18:47:11:708 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell getprop ro.build.version.sdk'
+2023-05-14 18:47:11:810 [ADB] Current device property 'ro.build.version.sdk': 29
+2023-05-14 18:47:11:811 [ADB] Getting device platform version
+2023-05-14 18:47:11:811 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell getprop ro.build.version.release'
+2023-05-14 18:47:11:883 [ADB] Current device property 'ro.build.version.release': 10
+2023-05-14 18:47:11:883 [ADB] Device API level: 29
+2023-05-14 18:47:11:883 [UiAutomator2] Relaxing hidden api policy
+2023-05-14 18:47:11:883 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2023-05-14 18:47:12:144 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda wait-for-device'
+2023-05-14 18:47:12:176 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell echo ping'
+2023-05-14 18:47:12:237 [AndroidDriver] Pushing settings apk to device...
+2023-05-14 18:47:12:237 [ADB] Getting install status for io.appium.settings
+2023-05-14 18:47:12:237 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell dumpsys package io.appium.settings'
+2023-05-14 18:47:12:401 [ADB] 'io.appium.settings' is installed
+2023-05-14 18:47:12:401 [ADB] Getting package info for 'io.appium.settings'
+2023-05-14 18:47:12:402 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell dumpsys package io.appium.settings'
+2023-05-14 18:47:12:535 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2023-05-14 18:47:12:536 [ADB] There is no need to install/upgrade 'C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2023-05-14 18:47:12:536 [ADB] Getting IDs of all 'io.appium.settings' processes
+2023-05-14 18:47:12:537 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell 'pgrep --help; echo $?''
+2023-05-14 18:47:12:633 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2023-05-14 18:47:12:753 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2023-05-14 18:47:12:754 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell appops set io.appium.settings android:mock_location allow'
+2023-05-14 18:47:12:883 [Logcat] Starting logs capture with command: C:\\Users\\91934\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s d27a4bda logcat -v threadtime
+2023-05-14 18:47:12:979 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 10000
+2023-05-14 18:47:12:983 [ADB] Forwarding system: 10000 to device: 6790
+2023-05-14 18:47:12:983 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda forward tcp:10000 tcp:6790'
+2023-05-14 18:47:13:017 [ADB] Getting install status for io.appium.uiautomator2.server
+2023-05-14 18:47:13:017 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell dumpsys package io.appium.uiautomator2.server'
+2023-05-14 18:47:13:125 [ADB] 'io.appium.uiautomator2.server' is installed
+2023-05-14 18:47:13:126 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2023-05-14 18:47:13:126 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell dumpsys package io.appium.uiautomator2.server'
+2023-05-14 18:47:13:488 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+2023-05-14 18:47:13:488 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2023-05-14 18:47:13:489 [ADB] Checking app cert for C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk
+2023-05-14 18:47:13:518 [ADB] Using 'apksigner.jar' from 'C:\Users\91934\AppData\Local\Android\Sdk\build-tools\33.0.2\lib\apksigner.jar'
+2023-05-14 18:47:13:521 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk-11\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\91934\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.2\\lib\\apksigner.jar verify --print-certs C:\\Users\\91934\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.27.0.apk
+2023-05-14 18:47:14:318 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2023-05-14 18:47:14:318 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2023-05-14 18:47:14:318 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2023-05-14 18:47:14:318 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2023-05-14 18:47:14:318 [ADB] 
+2023-05-14 18:47:14:319 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+2023-05-14 18:47:14:319 [ADB] 'C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+2023-05-14 18:47:14:319 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2023-05-14 18:47:14:319 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell dumpsys package io.appium.uiautomator2.server.test'
+2023-05-14 18:47:14:451 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2023-05-14 18:47:14:451 [ADB] Checking app cert for C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2023-05-14 18:47:14:457 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk-11\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\91934\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.2\\lib\\apksigner.jar verify --print-certs C:\\Users\\91934\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+2023-05-14 18:47:14:822 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2023-05-14 18:47:14:822 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2023-05-14 18:47:14:822 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2023-05-14 18:47:14:822 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2023-05-14 18:47:14:822 [ADB] 
+2023-05-14 18:47:14:822 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2023-05-14 18:47:14:822 [ADB] 'C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2023-05-14 18:47:14:822 [UiAutomator2] Server packages are not going to be (re)installed
+2023-05-14 18:47:14:825 [UiAutomator2] Waiting up to 30000ms for services to be available
+2023-05-14 18:47:14:825 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell pm list instrumentation'
+2023-05-14 18:47:14:951 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2023-05-14 18:47:14:954 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2023-05-14 18:47:14:955 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2023-05-14 18:47:14:955 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2023-05-14 18:47:15:120 [ADB] Checking app cert for C:\Users\91934\Desktop\NewGit\src\test\resources\apps\app-release.apk
+2023-05-14 18:47:15:245 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk-11\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\91934\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.2\\lib\\apksigner.jar verify --print-certs C:\\Users\\91934\\Desktop\\NewGit\\src\\test\\resources\\apps\\app-release.apk
+2023-05-14 18:47:16:314 [ADB] apksigner stdout: Signer #1 certificate DN: CN=Unknown, OU=Unknown, O=Unknown, L=Unknown, ST=Unknown, C=Unknown
+2023-05-14 18:47:16:315 [ADB] Signer #1 certificate SHA-256 digest: ee577613464d356575ce4f63b397238d3cf4199efdaba2d41f4cde7570ef701f
+2023-05-14 18:47:16:315 [ADB] Signer #1 certificate SHA-1 digest: 7a4e65617bd3e1134b8ddac51e00a99d8261c5b2
+2023-05-14 18:47:16:315 [ADB] Signer #1 certificate MD5 digest: d9208b5e2b822f1d1c9cad9186fccb76
+2023-05-14 18:47:16:315 [ADB] 
+2023-05-14 18:47:16:315 [ADB] 'C:\Users\91934\Desktop\NewGit\src\test\resources\apps\app-release.apk' is signed with a non-default certificate
+2023-05-14 18:47:16:316 [ADB] Getting install status for com.lyofi.wallet
+2023-05-14 18:47:16:316 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell dumpsys package com.lyofi.wallet'
+2023-05-14 18:47:16:484 [ADB] 'com.lyofi.wallet' is installed
+2023-05-14 18:47:16:484 [ADB] Getting package info for 'com.lyofi.wallet'
+2023-05-14 18:47:16:484 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell dumpsys package com.lyofi.wallet'
+2023-05-14 18:47:16:645 [ADB] The version name of the installed 'com.lyofi.wallet' is greater or equal to the application version name ('1.3.5' >= '1.3.5')
+2023-05-14 18:47:16:646 [ADB] There is no need to install/upgrade 'C:\Users\91934\Desktop\NewGit\src\test\resources\apps\app-release.apk'
+2023-05-14 18:47:16:646 [AndroidDriver] Performing fast reset on 'com.lyofi.wallet'
+2023-05-14 18:47:16:646 [ADB] Getting install status for com.lyofi.wallet
+2023-05-14 18:47:16:646 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell dumpsys package com.lyofi.wallet'
+2023-05-14 18:47:16:762 [ADB] 'com.lyofi.wallet' is installed
+2023-05-14 18:47:16:763 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell am force-stop com.lyofi.wallet'
+2023-05-14 18:47:16:887 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell pm clear com.lyofi.wallet'
+2023-05-14 18:47:17:083 [AndroidDriver] Performed fast reset on the installed 'com.lyofi.wallet' application (stop and clear)
+2023-05-14 18:47:17:083 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2023-05-14 18:47:17:130 [UiAutomator2] No obsolete sessions have been detected (socket hang up)
+2023-05-14 18:47:17:130 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell am force-stop io.appium.uiautomator2.server.test'
+2023-05-14 18:47:17:239 [UiAutomator2] Starting UIAutomator2 server 4.27.0
+2023-05-14 18:47:17:239 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2023-05-14 18:47:17:239 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2023-05-14 18:47:17:239 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","d27a4bda","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2023-05-14 18:47:17:260 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-05-14 18:47:17:261 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2023-05-14 18:47:17:272 [WD Proxy] socket hang up
+2023-05-14 18:47:18:282 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-05-14 18:47:18:282 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2023-05-14 18:47:18:292 [WD Proxy] socket hang up
+2023-05-14 18:47:19:267 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2023-05-14 18:47:19:296 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-05-14 18:47:19:297 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2023-05-14 18:47:19:307 [WD Proxy] socket hang up
+2023-05-14 18:47:20:313 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-05-14 18:47:20:313 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2023-05-14 18:47:20:323 [WD Proxy] socket hang up
+2023-05-14 18:47:21:339 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-05-14 18:47:21:340 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2023-05-14 18:47:21:426 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2023-05-14 18:47:21:426 [UiAutomator2] The initialization of the instrumentation process took 4187ms
+2023-05-14 18:47:21:426 [WD Proxy] Matched '/session' to command name 'createSession'
+2023-05-14 18:47:21:426 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:10000/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11000,"app":"C:\\Users\\91934\\Desktop\\NewGit\\src\\test\\resources\\apps\\app-release.apk","appActivity":"com.lyofi.wallet.MainActivity","appPackage":"com.lyofi.wallet","automationName":"UiAutomator2","deviceName":"Redmi Note_9","systemPort":10000,"udid":"d27a4bda"},"platformName":"android","chromeDriverPort":11000,"app":"C:\\Users\\91934\\Desktop\\NewGit\\src\\test\\resources\\apps\\app-release.apk","appActivity":"com.lyofi.wallet.MainActivity","appPackage":"com.lyofi.wallet","automationName":"UiAutomator2","deviceName":"d27a4bda","systemPort":10000,"udid":"d27a4bda","deviceUDID":"d27a4bda"}],"alwaysMatch":{}}}
+2023-05-14 18:47:21:454 [WD Proxy] Got response with status 200: {"sessionId":"59192dec-eddf-4bf2-b51f-a1fd96c9ce7a","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11000,"app":"C:\\Users\\91934\\Desktop\\NewGit\\src\\test\\resources\\apps\\app-release.apk","appActivity":"com.lyofi.wallet.MainActivity","appPackage":"com.lyofi.wallet","automationName":"UiAutomator2","deviceName":"Redmi Note_9","systemPort":10000,"udid":"d27a4bda"},"platformName":"android","chromeDriverPort":11000,"app":"C:\\Users\\91934\\Desktop\\NewGit\\src\\test\\resources\\apps\\app-release.apk","appActivity":"com.lyofi.wallet.MainActivity","appPackage":"com.lyofi.wallet","automationName":"UiAutomator2","deviceName":"d27a4bda","systemPort":10000,"udid":"d27a4bda","deviceUDID":"d27a4bda"}],"alwaysMatch":{}},"sessionId":"59192dec-eddf-4bf2-b51f-a1fd96c9ce7a"}}
+2023-05-14 18:47:21:454 [WD Proxy] Determined the downstream protocol as 'W3C'
+2023-05-14 18:47:21:466 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:10000/wd/hub/session/59192dec-eddf-4bf2-b51f-a1fd96c9ce7a/appium/device/info] with no body
+2023-05-14 18:47:21:549 [WD Proxy] Got response with status 200: {"sessionId":"59192dec-eddf-4bf2-b51f-a1fd96c9ce7a","value":{"androidId":"de9b6904206bf85c","apiVersion":"29","bluetooth":{"state":"OFF"},"brand":"Redmi","carrierName":"","displayDensity":440,"locale":"en_IN","manufacturer":"Xiaomi","model":"Redmi Note 9 Pro Max","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-66,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":null,"isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"10","realDisplaySize":"1080x2400","timeZone":"Asia/Kolkata"}}
+2023-05-14 18:47:21:550 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell dumpsys window'
+2023-05-14 18:47:21:723 [AndroidDriver] Screen already unlocked, doing nothing
+2023-05-14 18:47:21:723 [UiAutomator2] Starting 'com.lyofi.wallet/com.lyofi.wallet.MainActivity and waiting for 'com.lyofi.wallet/com.lyofi.wallet.MainActivity'
+2023-05-14 18:47:21:724 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell am start -W -n com.lyofi.wallet/com.lyofi.wallet.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2023-05-14 18:47:22:748 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:10000/wd/hub/session/59192dec-eddf-4bf2-b51f-a1fd96c9ce7a/appium/device/pixel_ratio] with no body
+2023-05-14 18:47:22:765 [WD Proxy] Got response with status 200: {"sessionId":"59192dec-eddf-4bf2-b51f-a1fd96c9ce7a","value":2.75}
+2023-05-14 18:47:22:766 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2023-05-14 18:47:22:766 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:10000/wd/hub/session/59192dec-eddf-4bf2-b51f-a1fd96c9ce7a/appium/device/system_bars] with no body
+2023-05-14 18:47:22:780 [WD Proxy] Got response with status 200: {"sessionId":"59192dec-eddf-4bf2-b51f-a1fd96c9ce7a","value":{"statusBar":102}}
+2023-05-14 18:47:22:781 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2023-05-14 18:47:22:781 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:10000/wd/hub/session/59192dec-eddf-4bf2-b51f-a1fd96c9ce7a/window/current/size] with no body
+2023-05-14 18:47:22:794 [WD Proxy] Got response with status 200: {"sessionId":"59192dec-eddf-4bf2-b51f-a1fd96c9ce7a","value":{"height":2168,"width":1080}}
+2023-05-14 18:47:22:794 [Appium] New AndroidUiautomator2Driver session created successfully, session 669afe37-724a-455d-9886-d2f0f2c47fe1 added to master session list
+2023-05-14 18:47:22:795 [BaseDriver] Event 'newSessionStarted' logged at 1684090042795 (00:17:22 GMT+0530 (India Standard Time))
+2023-05-14 18:47:22:795 [W3C (669afe37)] Cached the protocol value 'W3C' for the new session 669afe37-724a-455d-9886-d2f0f2c47fe1
+2023-05-14 18:47:22:796 [W3C (669afe37)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11000,"app":"C:\\Users\\91934\\Desktop\\NewGit\\src\\test\\resources\\apps\\app-release.apk","appActivity":"com.lyofi.wallet.MainActivity","appPackage":"com.lyofi.wallet","automationName":"UiAutomator2","deviceName":"Redmi Note_9","systemPort":10000,"udid":"d27a4bda"},"platformName":"android","chromeDriverPort":11000,"app":"C:\\Users\\91934\\Desktop\\NewGit\\src\\test\\resources\\apps\\app-release.apk","appActivity":"com.lyofi.wallet.MainActivity","appPackage":"com.lyofi.wallet","automationName":"UiAutomator2","deviceName":"d27a4bda","systemPort":10000,"udid":"d27a4bda","deviceUDID":"d27a4bda","deviceApiLevel":29,"platformVersion":"10","deviceScreenSize":"1080x2400","deviceScreenDensity":440,"deviceModel":"Redmi Note 9 Pro Max","deviceManufactur...
+2023-05-14 18:47:22:797 [HTTP] <-- POST /wd/hub/session 200 11926 ms - 1197
+2023-05-14 18:47:22:797 [HTTP] 
+2023-05-14 18:47:23:342 [HTTP] --> POST /wd/hub/session/669afe37-724a-455d-9886-d2f0f2c47fe1/appium/start_recording_screen
+2023-05-14 18:47:23:342 [HTTP] {}
+2023-05-14 18:47:23:347 [W3C (669afe37)] Calling AppiumDriver.startRecordingScreen() with args: [null,"669afe37-724a-455d-9886-d2f0f2c47fe1"]
+2023-05-14 18:47:23:347 [ADB] Getting IDs of all 'screenrecord' processes
+2023-05-14 18:47:23:348 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2023-05-14 18:47:23:500 [AndroidDriver] Screen recording has not been previously started by Appium. There is nothing to stop
+2023-05-14 18:47:23:500 [ADB] Getting IDs of all 'screenrecord' processes
+2023-05-14 18:47:23:500 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2023-05-14 18:47:23:605 [ADB] Building screenrecord process with the command line: adb -P 5037 -s d27a4bda shell screenrecord --time-limit 180 /sdcard/b9dd6853.mp4
+2023-05-14 18:47:23:622 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell "[ -e '/sdcard/b9dd6853.mp4' ] && echo __PASS__"'
+2023-05-14 18:47:23:973 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s d27a4bda shell "[ -e '/sdcard/b9dd6853.mp4' ] && echo __PASS__"'
+2023-05-14 18:47:24:025 [W3C (669afe37)] Responding to client with driver.startRecordingScreen() result: ""
+2023-05-14 18:47:24:027 [HTTP] <-- POST /wd/hub/session/669afe37-724a-455d-9886-d2f0f2c47fe1/appium/start_recording_screen 200 684 ms - 12
+2023-05-14 18:47:24:027 [HTTP] 
+2023-05-14 18:47:24:229 [HTTP] --> GET /wd/hub/session/669afe37-724a-455d-9886-d2f0f2c47fe1/context
+2023-05-14 18:47:24:230 [HTTP] {}
+2023-05-14 18:47:24:234 [W3C (669afe37)] Calling AppiumDriver.getCurrentContext() with args: ["669afe37-724a-455d-9886-d2f0f2c47fe1"]
+2023-05-14 18:47:24:235 [W3C (669afe37)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2023-05-14 18:47:24:236 [HTTP] <-- GET /wd/hub/session/669afe37-724a-455d-9886-d2f0f2c47fe1/context 200 7 ms - 22
+2023-05-14 18:47:24:236 [HTTP] 
+2023-05-14 18:47:24:244 [HTTP] --> POST /wd/hub/session/669afe37-724a-455d-9886-d2f0f2c47fe1/element
+2023-05-14 18:47:24:244 [HTTP] {"using":"xpath","value":"(//*[contains(@class,'TextView')])[1]"}
+2023-05-14 18:47:24:245 [W3C (669afe37)] Calling AppiumDriver.findElement() with args: ["xpath","(//*[contains(@class,'TextView')])[1]","669afe37-724a-455d-9886-d2f0f2c47fe1"]
+2023-05-14 18:47:24:246 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2023-05-14 18:47:24:246 [BaseDriver] Waiting up to 0 ms for condition
+2023-05-14 18:47:24:248 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-05-14 18:47:24:249 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/59192dec-eddf-4bf2-b51f-a1fd96c9ce7a/element] with body: {"strategy":"xpath","selector":"(//*[contains(@class,'TextView')])[1]","context":"","multiple":false}
+2023-05-14 18:47:34:679 [WD Proxy] Got response with status 200: {"sessionId":"59192dec-eddf-4bf2-b51f-a1fd96c9ce7a","value":{"ELEMENT":"00000000-0000-044c-ffff-ffff0000001f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-044c-ffff-ffff0000001f"}}
+2023-05-14 18:47:34:680 [W3C (669afe37)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-044c-ffff-ffff0000001f","ELEMENT":"00000000-0000-044c-ffff-ffff0000001f"}
+2023-05-14 18:47:34:681 [HTTP] <-- POST /wd/hub/session/669afe37-724a-455d-9886-d2f0f2c47fe1/element 200 10436 ms - 137
+2023-05-14 18:47:34:681 [HTTP] 
+2023-05-14 18:47:34:691 [HTTP] --> GET /wd/hub/session/669afe37-724a-455d-9886-d2f0f2c47fe1/element/00000000-0000-044c-ffff-ffff0000001f/displayed
+2023-05-14 18:47:34:691 [HTTP] {}
+2023-05-14 18:47:34:692 [W3C (669afe37)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-044c-ffff-ffff0000001f","669afe37-724a-455d-9886-d2f0f2c47fe1"]
+2023-05-14 18:47:34:693 [WD Proxy] Matched '/element/00000000-0000-044c-ffff-ffff0000001f/attribute/displayed' to command name 'getAttribute'
+2023-05-14 18:47:34:694 [WD Proxy] Proxying [GET /element/00000000-0000-044c-ffff-ffff0000001f/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/59192dec-eddf-4bf2-b51f-a1fd96c9ce7a/element/00000000-0000-044c-ffff-ffff0000001f/attribute/displayed] with no body
+2023-05-14 18:47:54:821 [WD Proxy] Got response with status 200: {"sessionId":"59192dec-eddf-4bf2-b51f-a1fd96c9ce7a","value":"true"}
+2023-05-14 18:47:54:822 [W3C (669afe37)] Responding to client with driver.elementDisplayed() result: true
+2023-05-14 18:47:54:823 [HTTP] <-- GET /wd/hub/session/669afe37-724a-455d-9886-d2f0f2c47fe1/element/00000000-0000-044c-ffff-ffff0000001f/displayed 200 20132 ms - 14
+2023-05-14 18:47:54:823 [HTTP] 
+2023-05-14 18:47:54:826 [HTTP] --> GET /wd/hub/session/669afe37-724a-455d-9886-d2f0f2c47fe1/context
+2023-05-14 18:47:54:826 [HTTP] {}
+2023-05-14 18:47:54:826 [W3C (669afe37)] Calling AppiumDriver.getCurrentContext() with args: ["669afe37-724a-455d-9886-d2f0f2c47fe1"]
+2023-05-14 18:47:54:827 [W3C (669afe37)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2023-05-14 18:47:54:828 [HTTP] <-- GET /wd/hub/session/669afe37-724a-455d-9886-d2f0f2c47fe1/context 200 1 ms - 22
+2023-05-14 18:47:54:828 [HTTP] 
+2023-05-14 18:47:54:833 [HTTP] --> POST /wd/hub/session/669afe37-724a-455d-9886-d2f0f2c47fe1/element
+2023-05-14 18:47:54:833 [HTTP] {"using":"xpath","value":"(//*[contains(@class,'TextView')])[1]"}
+2023-05-14 18:47:54:834 [W3C (669afe37)] Calling AppiumDriver.findElement() with args: ["xpath","(//*[contains(@class,'TextView')])[1]","669afe37-724a-455d-9886-d2f0f2c47fe1"]
+2023-05-14 18:47:54:835 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2023-05-14 18:47:54:835 [BaseDriver] Waiting up to 0 ms for condition
+2023-05-14 18:47:54:835 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-05-14 18:47:54:835 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/59192dec-eddf-4bf2-b51f-a1fd96c9ce7a/element] with body: {"strategy":"xpath","selector":"(//*[contains(@class,'TextView')])[1]","context":"","multiple":false}
+2023-05-14 18:48:05:050 [WD Proxy] Got response with status 200: {"sessionId":"59192dec-eddf-4bf2-b51f-a1fd96c9ce7a","value":{"ELEMENT":"00000000-0000-044c-ffff-ffff0000001f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-044c-ffff-ffff0000001f"}}
+2023-05-14 18:48:05:051 [W3C (669afe37)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-044c-ffff-ffff0000001f","ELEMENT":"00000000-0000-044c-ffff-ffff0000001f"}
+2023-05-14 18:48:05:052 [HTTP] <-- POST /wd/hub/session/669afe37-724a-455d-9886-d2f0f2c47fe1/element 200 10220 ms - 137
+2023-05-14 18:48:05:052 [HTTP] 
+2023-05-14 18:48:05:055 [HTTP] --> GET /wd/hub/session/669afe37-724a-455d-9886-d2f0f2c47fe1/element/00000000-0000-044c-ffff-ffff0000001f/attribute/text
+2023-05-14 18:48:05:055 [HTTP] {}
+2023-05-14 18:48:05:056 [W3C (669afe37)] Calling AppiumDriver.getAttribute() with args: ["text","00000000-0000-044c-ffff-ffff0000001f","669afe37-724a-455d-9886-d2f0f2c47fe1"]
+2023-05-14 18:48:05:056 [WD Proxy] Matched '/element/00000000-0000-044c-ffff-ffff0000001f/attribute/text' to command name 'getAttribute'
+2023-05-14 18:48:05:056 [WD Proxy] Proxying [GET /element/00000000-0000-044c-ffff-ffff0000001f/attribute/text] to [GET http://127.0.0.1:10000/wd/hub/session/59192dec-eddf-4bf2-b51f-a1fd96c9ce7a/element/00000000-0000-044c-ffff-ffff0000001f/attribute/text] with no body
+2023-05-14 18:48:24:743 [HTTP] <-- GET /wd/hub/session/669afe37-724a-455d-9886-d2f0f2c47fe1/element/00000000-0000-044c-ffff-ffff0000001f/attribute/text - - ms - -
+2023-05-14 18:48:24:743 [HTTP] 
+2023-05-14 18:48:24:748 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:61:25)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
+2023-05-14 18:48:24:750 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:61:25)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:51:25)
+    at Console._write (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
+2023-05-14 18:48:24:751 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:61:25)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:51:25)
+    at Console._write (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
+2023-05-14 18:48:24:752 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:61:25)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:51:25)
+    at Console._write (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
+2023-05-14 18:48:24:753 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:61:25)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:51:25)
+    at Console._write (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)

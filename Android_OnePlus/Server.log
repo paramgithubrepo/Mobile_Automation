@@ -1,0 +1,71 @@
+2023-05-13 23:28:28:579 [Appium] Welcome to Appium v1.22.3
+2023-05-13 23:28:28:580 [Appium] Non-default server args:
+2023-05-13 23:28:28:581 [Appium]   port: 5630
+2023-05-13 23:28:28:581 [Appium]   sessionOverride: true
+2023-05-13 23:28:28:582 [Appium]   logFile: C:\Users\91934\Desktop\Udemy resources\Original\Trainer\appium-cucumberbdd-master\Android_OnePlus\Server.log
+2023-05-13 23:28:28:611 [Appium] Appium REST http interface listener started on 0.0.0.0:5630
+2023-05-13 23:28:29:000 [HTTP] --> GET /wd/hub/status
+2023-05-13 23:28:29:000 [HTTP] {}
+2023-05-13 23:28:29:002 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2023-05-13 23:28:29:003 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2023-05-13 23:28:29:008 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2023-05-13 23:28:29:009 [HTTP] 
+2023-05-13 23:28:29:013 [HTTP] --> GET /wd/hub/status
+2023-05-13 23:28:29:013 [HTTP] {}
+2023-05-13 23:28:29:013 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2023-05-13 23:28:29:013 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2023-05-13 23:28:29:014 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2023-05-13 23:28:29:015 [HTTP] 
+2023-05-13 23:28:29:448 [HTTP] Request idempotency key: 9d4e58a9-965e-4bb8-8521-1ff95f083bfc
+2023-05-13 23:28:29:468 [HTTP] --> POST /wd/hub/session
+2023-05-13 23:28:29:468 [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\91934\\Desktop\\Udemy resources\\Original\\Trainer\\appium-cucumberbdd-master\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"emulator-5554","deviceName":"OnePlus","systemPort":"10000"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\91934\\Desktop\\Udemy resources\\Original\\Trainer\\appium-cucumberbdd-master\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"OnePlus","platformName":"android","appium:systemPort":"10000","appium:udid":"emulator-5554"}]}}
+2023-05-13 23:28:29:469 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\91934\\Desktop\\Udemy resources\\Original\\Trainer\\appium-cucumberbdd-master\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"emulator-5554","deviceName":"OnePlus","systemPort":"10000"},null,{"firstMatch":[{"appium:app":"C:\\Users\\91934\\Desktop\\Udemy resources\\Original\\Trainer\\appium-cucumberbdd-master\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"OnePlus","platformName":"android","appium:systemPort":"10000","appium:udid":"emulator-5554"}]}]
+2023-05-13 23:28:29:470 [BaseDriver] Event 'newSessionRequested' logged at 1684020509470 (04:58:29 GMT+0530 (India Standard Time))
+2023-05-13 23:28:29:474 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2023-05-13 23:28:29:474 [BaseDriver]   chromeDriverPort
+2023-05-13 23:28:29:849 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2023-05-13 23:28:29:849 [Appium] There are no active sessions for cleanup
+2023-05-13 23:28:29:851 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2023-05-13 23:28:29:851 [BaseDriver] Creating session with W3C capabilities: {
+2023-05-13 23:28:29:851 [BaseDriver]   "alwaysMatch": {
+2023-05-13 23:28:29:851 [BaseDriver]     "appium:chromeDriverPort": "11000",
+2023-05-13 23:28:29:851 [BaseDriver]     "platformName": "android",
+2023-05-13 23:28:29:851 [BaseDriver]     "appium:app": "C:\\Users\\91934\\Desktop\\Udemy resources\\Original\\Trainer\\appium-cucumberbdd-master\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk",
+2023-05-13 23:28:29:851 [BaseDriver]     "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
+2023-05-13 23:28:29:851 [BaseDriver]     "appium:appPackage": "com.swaglabsmobileapp",
+2023-05-13 23:28:29:852 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2023-05-13 23:28:29:852 [BaseDriver]     "appium:deviceName": "OnePlus",
+2023-05-13 23:28:29:852 [BaseDriver]     "appium:systemPort": "10000",
+2023-05-13 23:28:29:852 [BaseDriver]     "appium:udid": "emulator-5554"
+2023-05-13 23:28:29:852 [BaseDriver]   },
+2023-05-13 23:28:29:852 [BaseDriver]   "firstMatch": [
+2023-05-13 23:28:29:852 [BaseDriver]     {}
+2023-05-13 23:28:29:852 [BaseDriver]   ]
+2023-05-13 23:28:29:852 [BaseDriver] }
+2023-05-13 23:28:29:853 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2023-05-13 23:28:29:854 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2023-05-13 23:28:29:856 [BaseDriver] Capability 'systemPort' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+2023-05-13 23:28:29:856 [BaseDriver] Capability 'chromeDriverPort' changed from string ('11000') to integer (11000). This may cause unexpected behavior
+2023-05-13 23:28:29:858 [BaseDriver] Session created with session id: 78988746-a27f-4e6a-85e2-a13b628606dc
+2023-05-13 23:28:29:861 [BaseDriver] Using local app 'C:\Users\91934\Desktop\Udemy resources\Original\Trainer\appium-cucumberbdd-master\src\test\resources\apps\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk'
+2023-05-13 23:28:29:861 [UiAutomator2] Checking whether app is actually present
+2023-05-13 23:28:29:884 [ADB] Found 2 'build-tools' folders under 'C:\Users\91934\AppData\Local\Android\Sdk' (newest first):
+2023-05-13 23:28:29:884 [ADB]     C:/Users/91934/AppData/Local/Android/Sdk/build-tools/33.0.2
+2023-05-13 23:28:29:884 [ADB]     C:/Users/91934/AppData/Local/Android/Sdk/build-tools/30.0.3
+2023-05-13 23:28:29:885 [ADB] Using 'adb.exe' from 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2023-05-13 23:28:29:886 [ADB] Running 'C:\Users\91934\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2023-05-13 23:28:29:932 [AndroidDriver] Retrieving device list
+2023-05-13 23:28:29:932 [ADB] Trying to find a connected android device
+2023-05-13 23:28:29:933 [ADB] Getting connected devices
+2023-05-13 23:28:29:961 [ADB] Connected devices: [{"udid":"d27a4bda","state":"device"}]
+2023-05-13 23:28:29:961 [AndroidDriver] Device emulator-5554 was not in the list of connected devices
+2023-05-13 23:28:29:961 [UiAutomator2] Deleting UiAutomator2 session
+2023-05-13 23:28:29:963 [BaseDriver] Event 'newSessionStarted' logged at 1684020509962 (04:58:29 GMT+0530 (India Standard Time))
+2023-05-13 23:28:30:019 [W3C] Encountered internal error running command: Error: Device emulator-5554 was not in the list of connected devices
+2023-05-13 23:28:30:019 [W3C]     at Object.errorAndThrow (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:94:35)
+2023-05-13 23:28:30:019 [W3C]     at Object.getDeviceInfoFromCaps (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:231:16)
+2023-05-13 23:28:30:019 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:338:26)
+2023-05-13 23:28:30:019 [W3C]     at AndroidUiautomator2Driver.createSession (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:229:7)
+2023-05-13 23:28:30:019 [W3C]     at AppiumDriver.createSession (C:\Users\91934\AppData\Roaming\npm\node_modules\appium\lib\appium.js:387:35)
+2023-05-13 23:28:30:027 [HTTP] <-- POST /wd/hub/session 500 558 ms - 683
+2023-05-13 23:28:30:027 [HTTP] 
